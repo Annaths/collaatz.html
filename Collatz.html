@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collatz</title>
+</head>
+<body>
+public class Collatz {
+    public static void collatz(int n) {
+        System.out.print(n + " ");
+        if(n==1) return;
+        else if(n<0) System.out.println( " n muss nicht kleiner als 0 sein " );
+        else if(n% 2 = 0) collatz(n / 2);
+        else collatz(3*n + 1);
+    }
+  
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        collatz(n);
+    }
+  
+  }
+ 
+
+
+
+</body>
+
+function fCollatz
+
+
+</html>
